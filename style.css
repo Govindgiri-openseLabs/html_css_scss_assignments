@@ -1,0 +1,516 @@
+.page_01 {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.page_01 .header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+}
+.page_01 .header div {
+  width: 16.666%;
+  height: 100%;
+}
+.page_01 .header div .img_01 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  left: 55%;
+  top: 10%;
+  transform: rotate(350deg);
+}
+.page_01 .header div .h3_01 {
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  left: 80%;
+  top: 15%;
+  color: white;
+}
+.page_01 .header div .h3_02 {
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  left: 45%;
+  top: 15%;
+  color: white;
+}
+.page_01 .header div .h3_03 {
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  top: 15%;
+  color: white;
+}
+.page_01 .header div .h3_04 {
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  right: 40%;
+  top: 15%;
+  color: white;
+}
+.page_01 .header div .h3_05 {
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  top: 15%;
+  right: 25%;
+  color: white;
+}
+.page_01 .content {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: -10px;
+}
+.page_01 .content h1 {
+  font-size: 200px;
+  position: relative;
+  right: 20%;
+  bottom: 40px;
+  color: white;
+}
+.page_01 .content h3 {
+  letter-spacing: normal;
+  position: relative;
+  bottom: 200px;
+  right: 35%;
+  color: white;
+}
+.page_01 .footer {
+  height: 40%;
+  display: flex;
+}
+.page_01 .footer .footer_01 {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  left: 5%;
+  bottom: 60%;
+  color: white;
+}
+.page_01 .footer .footer_02 {
+  height: 100%;
+  width: 50%;
+  color: white;
+  position: relative;
+  bottom: 50%;
+}
+.page_01 .footer .footer_02 div {
+  background-image: linear-gradient(to right, rgb(0, 153, 255), rgb(255, 94, 0));
+  width: 19%;
+  height: 54%;
+  border-radius: 50%;
+}
+.page_01 .footer .footer_02 div h5 {
+  position: relative;
+  top: 30%;
+  left: 20%;
+  width: 150%;
+}
+
+.page_02 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(206, 210, 210);
+  opacity: 0.9;
+}
+.page_02 .inner_part {
+  display: flex;
+  border: 0.3px black solid;
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
+.page_02 .inner_part div {
+  width: 17%;
+  border: 1px black solid;
+  display: grid;
+}
+.page_02 .inner_part div a {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.8;
+  font-family: sans-serif;
+}
+.page_02 .inner_part div h2 {
+  text-align: center;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.page_02 .inner_part h3 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.4;
+}
+.page_02 .h3 {
+  background-color: rgba(57, 120, 228, 0.862);
+  left: 3%;
+  border: 1px black solid;
+  height: 23%;
+  width: 10%;
+  border-radius: 50%;
+}
+.page_02 .heading_class_00 {
+  opacity: 1;
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 60%;
+  left: 40%;
+  text-align: center;
+}
+.page_02 .heading_class_01 {
+  font-size: 40px;
+  color: black;
+  position: relative;
+  left: 60%;
+  font-family: sans-serif;
+}
+.page_02 .heading_class_02 {
+  font-size: 40px;
+  position: relative;
+  bottom: 40%;
+  left: 58%;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: sans-serif;
+}
+
+.page_03 {
+  background-color: rgba(103, 102, 100, 0.752);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.page_03 .heading {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.page_03 .heading_01 {
+  background-color: rgb(233, 123, 6);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: 9%;
+  top: 50px;
+}
+.page_03 .heading_02 {
+  color: white;
+  width: 80%;
+  height: 100px;
+  position: relative;
+  left: 5%;
+  top: 105px;
+}
+.page_03 .heading_03 {
+  opacity: 2;
+  text-shadow: 0px 1px 1px white;
+  color: rgb(70, 84, 86);
+  width: 80%;
+  height: 100px;
+  position: relative;
+  left: 14%;
+}
+.page_03 .section_02 {
+  display: flex;
+  height: 3000px;
+}
+.page_03 .img_class {
+  position: relative;
+  padding-left: 50px;
+  height: 100%;
+  width: 100%;
+}
+.page_03 .img_class_01 {
+  position: relative;
+  height: 10%;
+  width: 100%;
+  border-radius: 10px;
+}
+.page_03 .para_class {
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.page_03 .number {
+  display: flex;
+  margin: 5%;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.page_04 {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.page_04 .heading_01 {
+  background-color: orangered;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  left: 20%;
+  margin-top: 1%;
+}
+.page_04 .heading_01 span {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  left: 60%;
+  top: 15%;
+}
+.page_04 .heading_01 h1 {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  top: 10%;
+  left: 60%;
+}
+.page_04 .input_box_01 {
+  margin-top: 6%;
+  margin-bottom: 1%;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+}
+.page_04 .input_box_01 input {
+  color: white;
+  background-color: black;
+  border: 0.1px rgb(122, 122, 122) solid;
+  text-align: center;
+  height: 35px;
+  width: 15%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.page_04 .input_box_02 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+.page_04 .input_box_02 input {
+  text-align: center;
+  background-color: black;
+  border: 0.1px rgb(122, 122, 122) solid;
+  margin-top: 1%;
+  position: relative;
+  margin-left: 20.8%;
+  margin-right: 21.3%;
+  height: 35px;
+  width: 57.9%;
+  color: white;
+}
+.page_04 .input_box_02 .input_02 {
+  opacity: 2;
+  height: 200px;
+  border: 1px white dotted;
+  background-color: black;
+}
+.page_04 .btn {
+  border: 2px rgb(122, 122, 122) solid;
+  margin-top: 1%;
+  width: 10%;
+  height: 40px;
+  position: relative;
+  left: 67%;
+  background-color: black;
+  color: white;
+}
+
+.page_05 {
+  background-color: rgba(168, 200, 200, 0.722);
+  height: 100vh;
+  width: 100%;
+}
+.page_05 .header {
+  width: 100%;
+  height: 40%;
+  display: grid;
+}
+.page_05 .header div {
+  background-color: rgb(21, 89, 225);
+  position: relative;
+  top: 20%;
+  left: 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.page_05 .header h1 {
+  position: relative;
+  bottom: 100%;
+  left: 13%;
+}
+.page_05 .content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+.page_05 .content div {
+  width: 50%;
+  height: 100%;
+}
+.page_05 .content div img {
+  width: 70%;
+  height: 100%;
+  position: relative;
+  left: 20%;
+}
+.page_05 .content div p {
+  text-align: start;
+  height: 100%;
+  width: 60%;
+  padding: 2%;
+}
+.page_05 .footer {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+.page_05 .footer button {
+  font-size: 12px;
+  width: 10%;
+  height: 30%;
+  position: relative;
+  top: 30%;
+  border: 1px orange solid;
+}
+
+.page_06 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.page_06 .header {
+  width: 100%;
+  height: 30%;
+}
+.page_06 .header div {
+  position: relative;
+  left: 40%;
+  top: 50%;
+  width: 3.5%;
+  height: 27%;
+  background-color: rgb(154, 33, 241);
+  border-radius: 50%;
+}
+.page_06 .content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+.page_06 .content .hh1 {
+  width: 10%;
+  font-size: 25px;
+  position: relative;
+  left: 20%;
+  text-align: center;
+}
+.page_06 .content .hh2 {
+  width: 10%;
+  font-size: 25px;
+  position: relative;
+  left: 35%;
+  text-align: center;
+}
+.page_06 .content .hh3 {
+  width: 10%;
+  font-size: 25px;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+.page_07 {
+  width: 100%;
+  height: 107%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+.page_07 .header {
+  width: 100%;
+  height: 50%;
+}
+.page_07 .header img {
+  width: 60%;
+  height: 80%;
+  position: relative;
+  left: 20%;
+  right: 20%;
+  top: 28%;
+}
+.page_07 .content {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.page_07 .content div {
+  width: 50%;
+  height: 100%;
+}
+.page_07 .content .content_01 div {
+  width: 18%;
+  height: 40%;
+  border-radius: 50%;
+  position: relative;
+  top: 15%;
+  left: 20%;
+  background-color: orange;
+}
+.page_07 .content .content_01 h1 {
+  position: relative;
+  left: 28%;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+.page_07 .content .content_02 {
+  font-family: sans-serif;
+}
+.page_07 .content .content_02 p {
+  text-align: left;
+  width: 60%;
+  padding-top: 110px;
+  font-family: sans-serif;
+}
+.page_07 .content .content_02 hr {
+  width: 100px;
+  position: relative;
+  right: 21%;
+  bottom: 5%;
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow-x: hidden;
+}/*# sourceMappingURL=style.css.map */

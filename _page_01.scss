@@ -1,0 +1,117 @@
+.page_01{
+   opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    .header{
+      display: flex;
+      margin:0;
+      padding:0;
+      height: 10vh;
+      div{
+        width: 16.666%;
+        height: 100%;
+        .img_01{
+          width: 50%;
+          height: 100%;
+          position: relative;
+          left: 55%;
+          top: 10%;
+          transform: rotate(350deg);
+        }
+        .h3_01{
+          font-size: 15px;
+          font-family: sans-serif;
+          position: relative;
+          left:80%;
+          top: 15%;
+          color: white;
+        }
+        .h3_02{
+          font-size: 15px;
+          font-family: sans-serif;
+          position: relative;
+          left: 45%;
+          top: 15%;
+          color: white;
+        }
+      
+        .h3_03{
+          font-size: 15px;
+          font-family: sans-serif;
+          position: relative;
+          top: 15%;
+          color: white;
+        }
+        .h3_04{
+          font-size: 15px;
+          font-family: sans-serif;
+          position: relative;
+          right: 40%;
+          top: 15%;
+          color: white;
+        }
+        .h3_05{
+          font-size: 15px;
+          font-family: sans-serif;
+          position: relative;
+          top: 15%;
+          right:25%;
+          color: white;
+        }
+      }
+    }
+    .content{
+      width: 100%;
+      height: 50%;
+      text-align: center;
+      font-family: sans-serif;
+      letter-spacing:-10px; 
+      h1{
+        font-size: 200px;
+        position: relative;
+        right: 20%;
+        bottom:40px;
+        color: white;
+      }
+     h3{
+      letter-spacing: normal;
+      position:relative;
+      bottom: 200px;
+      right: 35%;
+      color: white;
+     } 
+    }
+    .footer{
+      height:40% ;
+      display: flex;
+      .footer_01{
+        height: 100%;
+        width: 50%;
+        position: relative;
+        left: 5%;
+        bottom: 60%;
+        color: white;
+      }
+      .footer_02{
+        height: 100%;
+        width: 50%;
+        color: white;
+        position: relative;
+        bottom: 50%;
+        div{
+          background-image: linear-gradient(to right, rgb(0, 153, 255) , rgb(255, 94, 0));
+          width:19%;
+          height:54%;
+          border-radius: 50%;
+          h5{
+            position: relative;
+            top: 30%;
+            left: 20%;
+            width: 150%;
+          }
+        }
+      }
+    }
+  }
+  

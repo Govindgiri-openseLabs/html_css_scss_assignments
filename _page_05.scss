@@ -1,0 +1,59 @@
+.page_05{
+    background-color: rgba(168, 200, 200, 0.722);
+    height: 100vh;
+    width: 100%;
+    .header{
+       width: 100%;
+       height:40%;
+       display:grid;
+       div{
+        background-color: rgb(21, 89, 225);
+         position: relative;
+         top: 20%;
+         left: 10%;
+         width:150px;
+         height:150px;
+         border-radius: 50%;
+       }
+      h1{
+        position: relative;
+        bottom: 100%;
+        left: 13%; 
+      } 
+  
+    }
+    .content{
+      width: 100%;
+      height:40%;
+      display: flex;
+    div{
+      width:50%;
+      height: 100%;
+      img{
+        width: 70%;
+        height:100% ;
+        position: relative;
+        left: 20%;
+      }
+      p{text-align:start;
+        height: 100%;
+        width: 60%;
+        padding: 2%;
+      }
+    }
+    }
+    .footer{
+      width: 100%;
+      height:20%;
+      text-align: center;
+      button{
+        font-size: 12px;
+        width: 10%;
+        height: 30%;
+        position: relative;
+        top: 30%;
+        border: 1px orange solid;
+      }
+    }
+  }
+  
