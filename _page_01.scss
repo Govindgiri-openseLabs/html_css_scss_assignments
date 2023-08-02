@@ -1,8 +1,7 @@
 .page_01{
-   opacity: 0.9;
     width: 100%;
     height: 100%;
-    background-color:black;
+    background-color:#1D1B1C;
     .header{
       display: flex;
       margin:0;
@@ -15,9 +14,10 @@
           width: 50%;
           height: 100%;
           position: relative;
-          left: 55%;
+          left:90%;
           top: 10%;
-          transform: rotate(350deg);
+          margin: 5%;
+          transform: rotate(340deg);
         }
         .h3_01{
           font-size: 15px;
@@ -25,6 +25,7 @@
           position: relative;
           left:80%;
           top: 15%;
+          margin: 5%;
           color: white;
         }
         .h3_02{
@@ -33,6 +34,7 @@
           position: relative;
           left: 45%;
           top: 15%;
+          margin: 5%;
           color: white;
         }
       
@@ -41,6 +43,7 @@
           font-family: sans-serif;
           position: relative;
           top: 15%;
+          margin: 5%;
           color: white;
         }
         .h3_04{
@@ -49,15 +52,24 @@
           position: relative;
           right: 40%;
           top: 15%;
+          margin: 5%;
           color: white;
         }
         .h3_05{
           font-size: 15px;
           font-family: sans-serif;
           position: relative;
-          top: 15%;
-          right:25%;
-          color: white;
+          margin-left: 5%;
+          margin-right: 5%;
+          color: rgba(242, 77, 12, 0.773);
+        }
+        hr{
+          color: rgba(242, 77, 12, 0.773);
+          width: 30%;
+          position: relative;
+          top: 35%;
+          right: 33%;      
+          margin: 5%;
         }
       }
     }
@@ -65,12 +77,11 @@
       width: 100%;
       height: 50%;
       text-align: center;
-      font-family: sans-serif;
-      letter-spacing:-10px; 
+      font-family:Bebas Neue;
       h1{
         font-size: 200px;
         position: relative;
-        right: 20%;
+        right: 17%;
         bottom:40px;
         color: white;
       }
@@ -78,7 +89,7 @@
       letter-spacing: normal;
       position:relative;
       bottom: 200px;
-      right: 35%;
+      right: 10%;
       color: white;
      } 
     }
@@ -89,26 +100,47 @@
         height: 100%;
         width: 50%;
         position: relative;
-        left: 5%;
+        left: 18%;
         bottom: 60%;
         color: white;
+        font-family: sans-serif;
+        font-size: 20px;
       }
       .footer_02{
         height: 100%;
         width: 50%;
         color: white;
         position: relative;
+        left: 10%;
         bottom: 50%;
-        div{
+        .footer__02__01{
+          font-family: sans-serif;
           background-image: linear-gradient(to right, rgb(0, 153, 255) , rgb(255, 94, 0));
-          width:19%;
-          height:54%;
+          width:100px;
+          height:100px;
           border-radius: 50%;
           h5{
             position: relative;
             top: 30%;
             left: 20%;
-            width: 150%;
+            width: 300%;
+          }
+        }
+        .footer__02__02{
+          width: 30px;
+          height:30px;
+          position: relative;
+          right: 69%;
+          background-color:#DF4E31;
+          text-align: center;
+          div{
+            width: 20px;
+            height: 2px;
+            position: relative;
+            top: 45%;
+            left: 15%;
+            rotate:135deg;
+            background-color: white;
           }
         }
       }
